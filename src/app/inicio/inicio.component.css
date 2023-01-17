@@ -1,5 +1,4 @@
-
-
+/*
 #header nav {
   background-color: var(--color-fondo-header);
 }
@@ -11,8 +10,8 @@
 .opciones {
   font-size: 5rem;
   height: 17vh;
-}
-/*
+} */
+
 #contenedor {
   min-height: 85vh;
 }
@@ -33,16 +32,16 @@ aside>div {
 
 .imagenes {
   width: 95%;
-} */
-
+}
+/*
 #footer {
   background-color: var(--color-fondo-footer);
   min-height: 4vh;
   font-size: var(--footer-font-size-xs);
-}
+} */
 
 @media screen and (min-width: 768px) {
-
+/*
   #header>.navbar>.container-fluid {
       justify-content: start;
       padding-left: 4%;
@@ -51,8 +50,8 @@ aside>div {
       font-size: 1.2rem;
       height: initial;
       border-bottom: 0 !important;
-  }
-  /* #contenedor{
+  } */
+  #contenedor{
       height: 89vh;
       overflow: hidden;
   }
@@ -74,23 +73,23 @@ aside>div {
   .articsec2{
       max-width: 32%;
       max-height: 35vh;
-  } */
-  #footer {
-      font-size: var(--footer-font-size-md);
   }
+  /* #footer {
+      font-size: var(--footer-font-size-md);
+  } */
 }
 
 @media screen and (min-width: 1200px) {
 
-  /* #contenedor{
+  #contenedor{
       height: 88vh;
-  } */
-  #footer {
-      font-size: var(--footer-font-size-lg);
   }
+  /* #footer {
+      font-size: var(--footer-font-size-lg);
+  } */
 }
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   #contenedor{
       height: 85vh;
   }
-} */
+}

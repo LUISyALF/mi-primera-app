@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --color-fondo-header: var(--bs-gray-dark);
+  --color-fondo-aside: #EEE;
+  --color-fondo-main: #FFF;
+  --color-fondo-footer: var(--bs-gray-dark);
+  --html-font-size-xs: 8px;
+  --html-font-size-md: 14px;
+  --html-font-size-lg: 18px;
+  --footer-font-size-xs: 2rem;
+  --footer-font-size-md: 1.5rem;
+  --footer-font-size-lg: 1.2rem;
+}
+
+html {
+  font-size: var(--html-font-size-xs);
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media screen and (min-width: 768px) {
+  html {
+      font-size: var(--html-font-size-md);
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+      font-size: var(--html-font-size-lg);
+  }
+
+}
